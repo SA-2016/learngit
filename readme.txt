@@ -16,3 +16,5 @@ test back
 git reset --hard commit_id  #切换工作区文件到指定版本号，HEAD指向当前版本
 git log  #查看提交历史
 git reflog  #查看命令历史
+
+test tree
