@@ -18,3 +18,9 @@ git log  #查看提交历史
 git reflog  #查看命令历史
 
 test how stage works
+
+git remote add origin git @server_name:/path/repo_name.git  #关联远程仓库
+git push -u origin master  #第一次推送master分支所有内容
+git push origin master  #推送最新修改
+
+git clone git@github.com:path/repo_name.git  #从网络上克隆一个仓库
