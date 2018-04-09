@@ -43,3 +43,5 @@ git log --graph  #查看分支合并图
 若禁用 Fast Forward 模式，Git会在merge时生成一个新的commit，这样分支历史上就能看出分支信息
 
 a new commit
+
+合并分支时加上 --no-ff参数就可以以普通方式合并，合并后的历史有分支，能看出合并痕迹，而Fast Forward看不出
