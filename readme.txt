@@ -26,3 +26,10 @@ git push origin master  #推送最新修改
 git clone git@github.com:path/repo_name.git  #从网络上克隆一个仓库
 
 test dev
+
+git branch  #查看分支状况
+git  branch name  #创建分支
+git checkout name  #切换分支
+git merge name  #合并指定分支到当前分支
+git checkout -b name  #创建+切换分支
+git branch -d name  #删除分支
