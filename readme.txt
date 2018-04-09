@@ -35,3 +35,11 @@ git checkout -b name  #创建+切换分支
 git branch -d name  #删除分支
 
 test feat1
+
+Git 无法合并分支的时候，先解决冲突，再提交，合并完成
+git log --graph  #查看分支合并图
+通常合并分支时，Git采用 Fast Forward 模式，但删除分支后，会丢失分支信息
+
+若禁用 Fast Forward 模式，Git会在merge时生成一个新的commit，这样分支历史上就能看出分支信息
+
+a new commit
